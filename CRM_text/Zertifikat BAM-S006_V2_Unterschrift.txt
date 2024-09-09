@@ -1,0 +1,325 @@
+BAM -S006 (V1 ) Page 1 of 7 pages  Bundesanstalt für Materialforschung und -prüfung (BAM)  
+ 
+in cooperation with the International Commission on Glass (ICG)  and Deutsche 
+Glastechnische Gesellschaft e.V. (DGG)  
+ 
+Certified Reference Material  
+BAM -S00 6 
+Multielement Glass  
+ 
+Certified Values  
+Element  Mass fraction 1) in %  Uncertainty 2) in %  
+Al (Al 2O3) 1.081  (2.042 ) 0.015 
+Ca (CaO)  7.660 (10.72) 0.016 
+Mg (MgO)  1.163  (1.929) 0.010  
+Na (Na 2O) 8.79  (11.85 ) 0.11 
+K (K2O) 0.577 (0.695) 0.008  
+Fe (Fe 2O3) 0.468  (0.669 ) 0.008  
+Cr (Cr 2O3) 0.382  (0.558 ) 0.006  
+Mn (MnO)  0.213  (0.275 ) 0.004  
+Si (SiO 2) 33.10 (70.83) 0.12 
+  in mg/kg  in mg/kg  
+As (As 2O3) 9.0 (11.8) 1.7 
+Ba (BaO)  456 (509) 23 
+Cd (CdO)  0.21 (0.24) 0.06 
+Co (CoO)  172 (219) 5 
+Ni (NiO)  19.3 (24.6) 1.4 
+P (P2O5) 85 (195) 16 
+Pb (PbO)  103 (111) 5 
+S (SO 3) 201 (502) 9 
+Sb (Sb 2O3) 10.8  (12.9) 1.5 
+Ti (TiO 2) 391 (652) 6 
+1) Unweighted mean value of the means of accepted sets of data (consisting of at least 1 single results), each set 
+being obtained by a different laboratory and/or a different method of measurement. The values in brackets 
+were calculated from the mass fraction s of the elements using the atomic weights . 
+2) Estimated expanded uncertainty U with a coverage factor of k = 2, corresponding to a level of confidence of 
+approx. 95 %, as defined in the Guide to the Expression of Uncertainty in Measurement , (GUM, ISO/IEC Guide 
+98-3:2008).  The stated measurement uncertainties refer only to the mass fractions of the elements . 
+This certificate is valid until there is a revocation from the producer of the material . 
+ 
+ 
+Sample Description  
+The Reference Material is available in the form of discs (approx. 38 mm diameter and 4 mm 
+height) and in form of cullet . new page 
+ BAM -S006 (V1 ) Page 2 of 7 pages  Values  for Information  
+Element  Mass fraction 1) in mg/kg  Uncertainty 2) in mg/kg  
+Cl  180  28 
+ Cu (CuO)  26 (33) 10 
+Sr (SrO)  130 (154)  82 
+Zn (ZnO)  61 (76) 7 
+Zr (ZrO 2) 139 (188) 28 
+1) Unweighted mean value of the means of accepted sets of data (consisting of at least 2 single results), each set 
+being obtained by a different laboratory and/or a different method of measurement. Values were not certified, 
+but given for information, because  the uncertainty from the inter -laboratory certification was too large.  The 
+values in brackets were calculated from the mass fractions of the elements using the atomic weights . 
+2) Estimated expanded uncertainty U with a coverage factor of k = 2, corresponding to a level of confidence of 
+approx. 95 %, as defined in the Guide to the Expression of Uncertainty in Measurement, (GUM, ISO/IEC Guide 
+98-3:2008).  The stated measurement uncertainties refer only to the mass fractions of the elements . 
+ 
+ 
+Recommended Use  
+The CRM is intended for establishing or checking the calibration of X -ray spectrometers for the analysis of 
+samples of similar matrix composition. The minimum sample size for wet chemical analysis is 0.2 g.  
+ 
+Instructions for Use  
+Before use  of the disc , the surface of the material must be cleaned . After multiple measurements with XRF, 
+discolouration of the glass may occur. This can be reversed by heat treatment at 300 - 400 ° C.  
+ 
+Participating Laboratories  
+Ardagh Glass Packaging - Europe, Nienburg/Weser, Germany  
+Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin, Germany  
+Cetim, Illkirch -Graffenstaden , France  
+Corning European Technology Center (CETC), S&T European Laboratory, Fontainebleau, France  
+Corning US, Corning, NY, USA  
+Glashütte Freital GmbH, Freital, Germany  
+Glass Technology Services Ltd, Sheffield, South Yorkshire, United Kingdom  
+IGR Institut für Glas - und Rohstofftechnologie GmbH, Göttingen, Germany  
+INISMa (Institut Interuniversitaire des Silicates, S ols et Matériaux, Mons, Belgium  
+NSG, Lathom, United Kingdom  
+Schott AG, Jena, Germany  
+Schott AG, Mainz, Germany  
+Stazione Sperimentale del Vetro, Murano, Italy  
+Saint -Gobain Sekurit Deutschland GmbH, Herzogenrath, Germany  
+Stoelzle Oberglas GmbH, Köflach, Austria  
+T. Şişe ve Cam Fab. A.Ş. Science and Technology Center, Gebze Kocaeli, Turkey  
+Wiegand -Glashüttenwerke GmbH, Steinbach am Wald, Germany  
+Zentrum für Glas - und Umweltanalytik GmbH, Ilmenau -Unterpörlitz, Germany  
+ 
+ new page 
+  
+BAM -S006 (V1)  Page 3 of 7 pages   
+  Means of Accepted Data Sets  
+ Certified  values      
+ Mass fraction in % mass fraction in mg/kg   
+Line No.  Al Ca Mg Na K Fe Cr Mn Si  As Ba Cd Co Ni P Pb 
+1 1.023  7.619  1.140  8.649  0.549  0.428  --- 0.20 1 32.83   4.3 394 0.11 --- 15.2 74.0 90.0  
+2 1.047  7.619  1.143  8.703  0.549  0.443  --- 0.20 2 32.93   4.6 408  0.13 157.0  16.6 76.5  91.5 
+3 1.060  7.633  1.145  8.718  0.550  0.446  0.353  0.202  32.97   7.2 425 0.20  161.5  17.5 84.3  92.8  
+4 1.062  7.640  1.146  8.748  0.562  0.452  0.365  0.203  33.00   7.6 446 0.23  163.2  17.5 85.2 93.5  
+5 1.076  7.653  1.151  8.753  0.564  0.461  0.371  0.20 9 33.05   8.1 451 0.25  166.8  17.7 90.0 94.7  
+6 1.079  7.654  1.153  8.758  0.565  0.463  0.373  0.20 9 33.05   8.9 453 0.25  169.2  17.8 91.7 95.4  
+7 1.082  7.659  1.156  8.776  0.566  0.469  0.375  0.212  33.10   9.5 464 0.29  170.0  18.0  93.5 99.1 
+8 1.083  7.663  1.162  8.790  0.571  0.471  0.382  0.214  33.12   9.9 470 --- 171.6  18.1  102.8  
+9 1.085  7.674  1.163  8.796  0.575  0.473  0.382  0.214  33.14   10.0  472 --- 173.8  18.9  103.5  
+10 1.087  7.675  1.164  8.801  0.576  0.475  0.383  0.215  33.17   10.6 474 < 1 177.4  20.5   106.0  
+11 1.087  7.678  1.164  8.802  0.580  0.475  0.384  0.215  33.18   12.3 477 < 1 178.3  21.6  108.1  
+12 1.093  7.680  1.167  8.803  0.580  0.475  0.385  0.217 33.20   14.4  538 < 2 179.4  21.8  108.3  
+13 1.094  7.681  1.170  8.810  0.581  0.476  0.387  0.217  33.26     < 2 179.8  21.8  109.5  
+14 1.094  7.710  1.173  8.830  0.581  0.477  0.388  0.220  33.35      179.9  21.9  109.6  
+15 1.095  --- 1.175  8.861  0.582  0.478  0.388  0.221       180.4  24.4   110.3  
+16 1.100  --- 1.175  8.870  0.590  0.483  0.389  0.223          111.6  
+17 1.105   1.188  8.892  0.596  0.484  0.390  0.229          114.7  
+18 1.106   1.197  8.925  0.593  0.489  0.390           120.3  
+19    --- 0.595   0.395            
+20     0.598   0.404            
+21     0.621              
+                  
+M
+ 1.081  7.660 1.163  8.794  0.57 7 0.468  0.382  0.213  33.10   9.0 456 0.21 172.0  19.3 85.0 103.4  
+Ms
+ 0.022  0.026 0.016  0.069  0.01 9 0.016  0.012  0.008  0.14   2.9 38 0.07 7.7 2.6 7.5 8.9 
+is
+ 0.020  0.02 7 0.008  0.048  0.006  0.005  0.003  0.00 2 0.04   1.5 23 0.03 1.8 0.8 5.7 2.0 
+ new page 
+ BAM -S006 (V 1) Page 4 of 7 pages   Certified values  values for information  
+ Mass fraction in mg/kg  mass fraction in mg/kg  
+Line No.  S Sb Ti  Cl Cu Sr Zn Zr 
+1 181 7.10 373  153 11.4 121.8  --- 130.0  
+2 185 8.05  382  156 22.0  122.8  57.3 133.5  
+3 197 8.76  387  169 25.0  125.1  58.3  134.0  
+4 200 9.91 394  200 27.3 127.1  68.0  137.2  
+5 200 10.32  394  223 42.0  130.0   141.4 
+6 205 10.33  395  ---  139.5   143.8  
+7 208 12.47  395    140.0   154.0  
+8 214 12.53  397      --- 
+9 219 13.90  400       --- 
+10 --- 14.17         
+11  14.40         
+          
+M
+ 201 10.8  391  180 25.5  129.5 61.2 139.1 
+Ms
+ 13 2.5 9  31 11.0 7.6 6.0 8.1 
+is
+ 10 1.2 9  25 4.3 1.8 5.3 6.3 
+The laboratory mean values have been examined statistically to eliminate outlying values. Where a ” --- ”  
+appears in the table it indicates that an outlying value has been omitted . A data set consists of at least  
+one single value of one laboratory.  
+ 
+M
+: mean of laboratory means  
+Ms
+: standard deviation of laboratory means  
+is
+:  averaged repeatability standard deviation (square root of the mean of laboratory variances)  
+ 
+Analytical method s used for certification  
+ 
+Element  Line Number  Method  
+------------------------------------------------------------------------------------------- ----- --- 
+Al 1, 2, 4, 5, 6, 7, 8, 10, 11, 1 2, 14, 15, 16 , 17 XRF  
+ 3, 9, 13, 18  ICP-OES  
+ 
+Ca 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14  XRF  
+ 5, 6 ICP-OES  
+ 
+Mg 1, 2, 8, 13  ICP-OES  
+ 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18  XRF  
+ 16 FAAS  
+ 
+Na 1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 18  XRF  
+ 2, 17  FAAS  
+ 4, 13, 16  ICP-OES  
+ 
+K 1, 19 FAAS  
+ 2, 3, 5, 6, 9, 10, 11, 12, 13, 14, 16, 17, 18, 20  XRF  
+ 4 Laser Ablation  ICP-MS 
+ 7, 8, 15 , 21 ICP-OES  
+ 
+Fe 1, 5, 7, 8, 10, 12, 13, 14, 15, 16, 17, 18  XRF  
+ 2, 3, 6, 9, 11  ICP-OES  
+ 4 Laser Ablation  ICP-MS new page 
+  
+ Page 5 of 7 pages  BAM -S006 (V1)  Element  Line Number  Method  
+---------------------------------------------------------------------------------------------------  
+Cr 3, 4, 5, 6, 7, 8, 11, 12, 14  ICP-OES  
+ 9, 10, 13, 15, 16, 17, 18, 20  XRF  
+ 19 FAAS  
+ 
+Mn 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, ICP-OES  
+ 7 ICP-MS 
+ 12, 13, 14, 15, 16, 17  XRF  
+ 
+Si 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14  XRF  
+ 2 Gravimetry  
+ 3 ICP-OES  
+ 
+As 1, 6, 9, 12  ICP-MS 
+ 2, 3, 5, 7, 10  ICP-OES  
+ 4, 11  XRF  
+ 8 Laser Ablation  ICP-MS 
+ 
+Ba 1, 4 ICP-OES  
+ 2, 3, 5, 6, 7, 8 , 9, 10, 11, 12  XRF  
+ 
+Cd 1, 2, 10 , 11 ICP-MS 
+ 3, 6, 7, 12 ICP-OES  
+ 4 Laser Ablation ICP -MS 
+ 5 ETAAS  
+ 13 XRF  
+ 
+Co 2, 5, 6, 8, 9, 12, 13, 14  ICP-OES  
+ 3, 15  ICP-MS 
+ 4, 7, 11  XRF  
+ 10 Laser Ablation ICP -MS 
+ 
+Ni 1, 3, 10  ICP-MS 
+ 2, 4, 5, 7, 8, 9, 13, 14  ICP-OES  
+ 6 Laser Ablation ICP -MS 
+ 11, 12, 15  XRF  
+ 
+P 1, 3, 4, 5, 6 , 7 XRF  
+ 2 ICP-OES  
+ 
+Pb 1, 5, 7, 8, 12, 18  XRF  
+ 2 Laser Ablation ICP -MS 
+ 3, 4, 6, 9, 10, 13, 14, 15, 16, 17  ICP-OES  
+ 11 ICP-MS 
+ 
+S 1, 3, 5, 7, 8 , 9 XRF  
+ 2, 4 Combustion/IR  
+ 6 ICP-OES  
+ 
+Sb 1, 2 XRF  
+ 3, 4, 6, 8  ICP-OES  
+ 5, 7, 9, 11  ICP-MS 
+ 10 Laser Ablation  ICP-MS 
+ 
+Ti 1 ICP-OES  
+ 2, 3, 4, 5, 6, 7, 8, 9  XRF  
+ 
+ new page 
+ BAM -S006 (V 1) Page 6 of 7 pages  Element  Line Number  Method  
+---------------------------------------------------------------------------------------------------  
+Sr 1, 2, 3, 4, 5, 7  XRF  
+ 6 ICP-OES  
+ 
+Zr 1, 2, 3, 4, 5 , 6 XRF  
+ 7 ICP-OES  
+ 
+Cu, Cl, Zn  XRF  
+ 
+ 
+Abbreviations : FAAS – Flame atomic absorption spectrometry  
+ ETAAS – Electrothermal atomic absorption spectrometry  
+ ICP-OES – Inductively coupled plasma - optical emission spectrometry  
+ ICP-MS – Mass spectrometry with inductively coupled plasma  
+ IR – Infrared detection  
+ XRF – X-ray fluorescence spectrometry  
+ 
+Transport and Storage  
+The material should be stored in a dry and clean environment at room temperature. Transport under 
+normal ambient conditions.  
+ 
+Metrological Traceability  
+To ensure traceability of the certified mass fractions to the SI (Système International d’Unités) 
+calibration for most of the data sets was performed using standard solutions prepared from pure 
+metals or stoichiometric compounds or well checked commercial calibration solutions . Some of the 
+datasets a re traceable to other certified reference materials or reference materials.  
+ 
+Technical Report  
+A detailed technical report describing the analysis procedures and the treatment of the analytical data 
+used to certify BAM -S006  is available on request or can be downloaded from BAM website 
+(www.bam.de).  
+  new page 
+  
+ Page 7 of 7 pages  BAM -S006 (V1)  Accepted as BAM -CRM on 2023 -10-23 
+ 
+Bundesanstalt für Materialforschung und -prüfung (BAM)  
+  
+ 
+ 
+ 
+  
+ 
+ 
+   
+ 
+Dr. S. Richter  Dr. S. Recknagel  
+Committee for Certification  Project Coordinator  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Reference Material is offered by:  
+Bundesanstalt für Materialforschung und -prüfung (BAM)  
+Richard -Willstätter -Str. 11, 12489 Berlin  
+Phone:  +49 30 8104 2061  
+Fax:      +49 30 8104 72061   Email:   sales.crm@bam.de  
+Internet: www.webshop.bam.de  
+ 
+BAM holds an accreditation as a reference material producer 
+according to ISO/IEC 17034. This accreditation is valid only for 
+the scope as specified in the certificate D -RM-11075 -01-00. 
+DAkkS  is a signatory of the multilateral agreement (MLA) between 
+EA, ILAC and IAF for mutual acceptance.  new page 
+ 

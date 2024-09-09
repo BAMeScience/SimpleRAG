@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<drmd:digitalReferenceMaterialDocument xmlns:dcc="https://ptb.de/dcc" xmlns:drmd="https://example.org/drmd" xmlns:si="https://ptb.de/si" schemaVersion="0.0.1">
+   <drmd:administrativeData>
+      <drmd:coreData>
+         <drmd:titleOfTheDocument>Reference Material Certificate</drmd:titleOfTheDocument>
+         <drmd:uniqueIdentifier>d66aed33-9242-4e6d-af4d-235a96bedf60</drmd:uniqueIdentifier>
+         <drmd:identifications>
+            <drmd:identification refType="basic_certificateIdentification">
+               <drmd:issuer>Bundesanstalt für Materialforschung – undprüfung (BAM)</drmd:issuer>
+               <drmd:value>BAM-A001</drmd:value>
+               <drmd:name>
+                  <dcc:content lang="en">Certified Reference Material</dcc:content>
+               </drmd:name>
+            </drmd:identification>
+         </drmd:identifications>
+         <drmd:periodOfValidity>This certificate is valid for 2 years after dispatch from BAM.</drmd:periodOfValidity>
+         <drmd:dataOfIssue>Not found.</drmd:dataOfIssue>
+      </drmd:coreData>
+      <drmd:items>
+         <drmd:item>
+            <drmd:name>
+               <dcc:content lang="en">XXXXXX</dcc:content>
+            </drmd:name>
+            <drmd:description>
+               <dcc:content lang="en">Not found.</dcc:content>
+            </drmd:description>
+            <drmd:minimumSampleSize>
+               <dcc:itemQuantity>
+                  <si:realListXMLList>
+                     <si:valueXMLList>0.5</si:valueXMLList>
+                     <si:unitXMLList>mL</si:unitXMLList>
+                  </si:realListXMLList>
+               </dcc:itemQuantity>
+            </drmd:minimumSampleSize>
+            <drmd:identifications>
+               <drmd:identification>
+                  <drmd:issuer>Bundesanstalt für Materialforschung – undprüfung (BAM)</drmd:issuer>
+                  <drmd:value>XXXXX</drmd:value>
+               </drmd:identification>
+            </drmd:identifications>
+         </drmd:item>
+      </drmd:items>
+      <drmd:referenceMaterialProducer>
+         <drmd:name>
+            <dcc:content lang="en">Bundesanstalt für Materialforschung – undprüfung (BAM)</dcc:content>
+         </drmd:name>
+         <drmd:contact>
+            <dcc:name>
+               <dcc:content lang="en">Bundesanstalt für Materialforschung und -prüfung (BAM)</dcc:content>
+            </dcc:name>
+            <dcc:eMail>sales.crm@bam.de</dcc:eMail>
+            <dcc:phone>+49 30 8104 2061</dcc:phone>
+            <dcc:fax>+49 30 8172061</dcc:fax>
+            <dcc:location>
+               <dcc:street>Richard-Willstätter-Str.</dcc:street>
+               <dcc:streetNo>11</dcc:streetNo>
+               <dcc:postCode>D-12489</dcc:postCode>
+               <dcc:city>Berlin</dcc:city>
+               <dcc:countryCode>Germany</dcc:countryCode>
+            </dcc:location>
+         </drmd:contact>
+      </drmd:referenceMaterialProducer>
+      <drmd:respPersons>
+         <dcc:respPerson>
+            <dcc:person>
+               <dcc:name>
+                  <dcc:content lang="en">sales.crm@bam.de</dcc:content>
+               </dcc:name>
+               <dcc:role>Contact Information</dcc:role>
+            </dcc:person>
+         </dcc:respPerson>
+      </drmd:respPersons>
+      <drmd:statements>
+         <drmd:intendedUse>
+            <dcc:name>
+               <dcc:content lang="en">Intended Use</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">BAM-A001 is intended to be used for performance control and validation of analytical methods for the determination of PAHs in olive oils. This CRM may also be applicable for other similar vegetable edible oils. BAM-A001 is explicitly meant only to be used in analytical laboratories.</dcc:content>
+            </dcc:description>
+         </drmd:intendedUse>
+         <drmd:storageInformation>
+            <dcc:name>
+               <dcc:content lang="en">Storage Information</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">**Transport and Storage**
+BAM-A001 can be shipped at ambient temperature. On receiving, the material must be stored at a temperature equal to or lower than +4 °C. The stability of the CRM is not affected by short periods of handling at ambient temperature during transport and use. However, BAM cannot be held responsible for any alteration of the material occurring during handling and storage at the customer’s premises, especially of opened units.</dcc:content>
+            </dcc:description>
+         </drmd:storageInformation>
+         <drmd:instructionsForHandlingAndUse>
+            <dcc:name>
+               <dcc:content lang="en">Handling Instructions</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">**Handling and Safety Instructions**
+
+Any use other than intended should be avoided. The personnel handling the material must be trained adequately and follow the regular safety precautions of the laboratory. It is recommended to handle and dispose of the reference material in accordance with the guidelines for analytical food samples legally in force at the site of end use and disposal. The usual laboratory safety precautions have to be applied. No hazardous effects are to be expected when the material is used under conditions usually adopted for the analysis of food samples which are low or moderately contaminated with PAHs.</dcc:content>
+            </dcc:description>
+         </drmd:instructionsForHandlingAndUse>
+         <drmd:metrologicalTraceability>
+            <dcc:name>
+               <dcc:content lang="en">Metrological Traceability</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">To ensure traceability of the PAHs contents, the gravimetrically prepared certified calibration standard SRM 2260a (NIST) was employed for the in-house certification study. Traceability was further established by using stable isotope dilution analysis using isotopically labeled PAHs internal standards for GC-MS measurements.</dcc:content>
+            </dcc:description>
+         </drmd:metrologicalTraceability>
+         <drmd:subcontractors>
+            <dcc:name>
+               <dcc:content lang="en">Subcontractors</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">XXXXX</dcc:content>
+            </dcc:description>
+         </drmd:subcontractors>
+      </drmd:statements>
+   </drmd:administrativeData>
+   <drmd:measurementResults>
+      <dcc:measurementResult xmlns:si="https://ptb.de/si">
+         <dcc:name>
+            <dcc:content lang="en">Results of calibration</dcc:content>
+         </dcc:name>
+         <dcc:description>
+            <dcc:content lang="en">XXXXX</dcc:content>
+         </dcc:description>
+         <dcc:results>
+            <dcc:result>
+               <dcc:name>
+                  <dcc:content lang="en">Mass fraction of elements</dcc:content>
+               </dcc:name>
+               <dcc:quantity refType="basic_referenceValue">
+                  <dcc:name>
+                     <dcc:content lang="en">Certified Values</dcc:content>
+                  </dcc:name>
+                  <si:realListXMLList>
+                     <si:valueXMLList>XXXXX</si:valueXMLList>
+                     <si:unitXMLList>XXXXXX</si:unitXMLList>
+                  </si:realListXMLList>
+               </dcc:quantity>
+               <dcc:quantity refType="basic_measurementError">
+                  <dcc:name>
+                     <dcc:content lang="en">Uncertainty</dcc:content>
+                  </dcc:name>
+                  <si:realListXMLList>
+                     <si:valueXMLList>XXXXXX</si:valueXMLList>
+                     <si:unitXMLList>XXXXX</si:unitXMLList>
+                  </si:realListXMLList>
+               </dcc:quantity>
+            </dcc:result>
+         </dcc:results>
+      </dcc:measurementResult>
+   </drmd:measurementResults>
+</drmd:digitalReferenceMaterialDocument>

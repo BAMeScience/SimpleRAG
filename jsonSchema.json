@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Digital Reference Material Document",
+    "properties": {
+      "administrativeData": {
+        "properties": {
+          "titleOfTheDocument": {},
+          "uniqueIdentifier": {},
+          "periodOfValidity": {},
+          "dateOfDispatch": {"format": "date"},
+          "dateOfCertificateApproval": {"format": "date"},
+          "dataOfIssue": {"format": "date"},
+          "dateOfValidity": {}
+        }
+      },
+      "coreData": {
+        "properties": {
+          "items": {
+            "items": {
+              "properties": {
+                "name": {},
+                "description": {},
+                "minimumSampleSize": {},
+                "identifications": {},
+                "referenceMaterialProducer": {
+                  "properties": {
+                    "name": {},
+                    "contact": {}
+                  }
+                }
+              }
+            }
+          },
+          "statements": {
+            "properties": {
+              "statement": {
+                "properties": {
+                  "intendedUse": {},
+                  "commutability": {},
+                  "storageInformation": {},
+                  "instructionsForHandlingAndUse": {},
+                  "metrologicalTraceability": {},
+                  "healthAndSafetyInformation": {},
+                  "subcontractors": {},
+                  "legalNotice": {},
+                  "referenceToCertificationReport": {},
+          "measurementResults": {
+            "items": {
+              "properties": {
+                "name": {},
+                "description": {},
+                "usedMethods": {},
+                "results": {
+                  "items": {
+                    "properties": {
+                      "result": {},
+                      "isCertified": {},
+                      "comment": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+                }
+              }
+            }
+          }
+        }
+      },
+      "cryptElectronicSeal": {},
+      "cryptElectronicSignature": {},
+      "cryptElectronicTimeStamp": {},
+      "respPersons": {
+        "items": {
+          "properties": {
+            "name": {},
+            "role": {},
+            "contactInformation": {}
+          }
+        }
+      }
+    }
+  }
+  
