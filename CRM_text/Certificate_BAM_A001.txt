@@ -14,12 +14,12 @@ Bundesanstalt für Materialforschung und -prüfung
 
 **Certified Values**
 
-| Characteristic^1 | Value^2 | Uncertainty U^3 |
-|-------------------|---------|------------------|
-| Benz[a]anthracene | 1.72    | 0.13             |
-| Chrysene          | 2.87    | 0.31             |
-| Benzo[b]fluoranthene| 1.30   | 0.14             |
-| Benzo[a]pyrene    | 1.44    | 0.09             |
+| Characteristic^1 | Value^2 | Uncertainty U^3 [µg kg^-1] |
+|-------------------|---------|-----------------------------|
+| Benz[a]anthracene | 1.72    | 0.13                         |
+| Chrysene          | 2.87    | 0.31                         |
+| Benzo[b]fluanthrene| 1.30    | 0.14                         |
+| Benzo[a]pyrene    | 1.44    | 0.09                         |
 
 ^1 PAH congeners determined by sample preparation (extraction, clean-up) and gas chromatographic separation with mass spectrometric detection (GC-MS) using stable isotopic dilution analysis as specified on Page 2 of this certificate.
 ^2 Unweighted mean value of 3 BAM workplace means (60 individual results in total).
@@ -49,42 +49,51 @@ The certified reference material (CRM) BAM-A001 is available as extra virgin oli
 
 Page 1 of 3new page 
 
-**Recommended Use**
+Title: Recommended Use
+
+Body Text:
 BAM-A001 is intended to be used for performance control and validation of analytical methods for the determination of PAHs in olive oils. This CRM may also be applicable for other similar vegetable edible oils. BAM-A001 is explicitly meant only to be used in analytical laboratories. Before taking a subsample, the vial must have reached ambient temperature. The minimum sample intake for one determination is 0.5 mL.
 
-**Handling and Safety Instructions**
+Subtitle: Handling and Safety Instructions
+
+Body Text:
 Any use other than intended should be avoided. The personnel handling the material must be trained adequately and follow the regular safety precautions of the laboratory. It is recommended to handle and dispose of the reference material in accordance with the guidelines for analytical food samples legally in force at the site of end use and disposal. The usual laboratory safety precautions have to be applied. No hazardous effects are to be expected when the material is used under conditions usually adopted for the analysis of food samples which are low or moderately contaminated with PAHs.
 
-**Transport and Storage**
+Subtitle: Transport and Storage
+
+Body Text:
 BAM-A001 can be shipped at ambient temperature. On receiving, the material must be stored at a temperature equal to or lower than +4 °C. The stability of the CRM is not affected by short periods of handling at ambient temperature during transport and use. However, BAM cannot be held responsible for any alteration of the material occurring during handling and storage at the customer’s premises, especially of opened units.
 
-**Analytical Methods**
+Subtitle: Analytical Methods
+
+Body Text:
 Two different methods have been used for sample preparation including extraction of PAHs from the olive oil matrix and clean-up of the sample extracts: i) Molecularly imprinted polymer (MIP) cartridges intended for PAH analysis, and ii) L/L extraction using acetonitrile followed by gel permeation chromatography (GPC). Instrumental analysis of the PAHs was performed by gas chromatography mass spectrometry (GC-MS) using the corresponding isotopically labelled PAHs as internal standards.
 
-**Metrolological Traceability**
+Subtitle: Metrological Traceability
+
+Body Text:
 All certified values refer to the extractable and measurable amounts of the PAH congeners from the olive oil material. Two different sample preparation methods (MIP and L/L-extraction combined with GPC) have been used to cancel out (at least partially) systematic biases. Both methods were successfully applied by BAM in the CCQM-K146 study (2018) to quantify benzo[a]pyrene in olive oil. To ensure traceability of the PAHs contents as defined above, the gravimetrically prepared certified calibration standard SRM 2260a (NIST) was employed for the in-house certification study. Traceability was further established by using stable isotope dilution analysis using isotopically labeled PAHs internal standards for GC-MS measurements.
 
-**CERTIFICATE BAM-A001**
+Footer:
+CERTIFICATE BAM-A001
 Page 2 of 3new page 
 
 **Title:**
+Bundesanstalt für Materialforschung und -prüfung (BAM)
+
+**Subtitle:**
 Literature
 
 **Body Text:**
-A detailed technical report describing the analysis procedures and the treatment of the analytical data used to certify BAM-A-001 is available on request or can be downloaded from BAM website (https://rrr.bam.de).
+A detailed technical report describing the analysis procedures and the treatment of the analytical data used to certify BAM-A-001 is available on request or can be downloaded from BAM website (https://www.bam.de).
 
 **Subtitle:**
 Accepted as BAM-CRM on September 29, 2023
 
-**Main Heading:**
-Bundesanstalt für Materialforschung und -prüfung (BAM)
-
-**Certification Statement:**
+**Body Text:**
 BAM holds an accreditation as a reference material producer according to ISO 17034. This accreditation is valid only for the scope as specified in the certificate D-RM-11075-01-00.
-DAMkKS is a signatory of the multilateral agreement (MLA) between EA, ILAC and IAF for mutual acceptance.
 
-**Image Description:**
-Logo of BAM (Bundesanstalt für Materialforschung und -prüfung) and DAKKS (Deutsche Akkreditierungsstelle D-RM-11075-01-00)
+DAkkS is a signatory of the multilateral agreement (MLA) between EA, ILAC and IAF for mutual acceptance.
 
 **Footer:**
 This Certified Reference Material is offered by:
@@ -93,12 +102,13 @@ Richard-Willstätter-Str. 11, D-12489 Berlin, Germany
 
 **Contact Information:**
 P: +49 30 8104 2061
-F: +49 30 8172061
+F: +49 30 81720614
 E-Mail: sales.crm@bam.de
 Internet: www.webshop.bam.de
 
 **Page Number:**
 Page 3 of 3
 
-**Certificate Number:**
-CERTIFICATE BAM-A-001new page 
+**Logos and Certifications:**
+- BAM logo
+- DAKKS logo with text "Deutsche Akkreditierungsstelle D-RM-11075-01-00"new page 

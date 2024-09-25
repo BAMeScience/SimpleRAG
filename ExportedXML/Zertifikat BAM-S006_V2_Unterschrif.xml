@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<drmd:digitalReferenceMaterialDocument xmlns:dcc="https://ptb.de/dcc" xmlns:drmd="https://example.org/drmd" xmlns:si="https://ptb.de/si" schemaVersion="0.0.1">
+   <drmd:administrativeData>
+      <drmd:coreData>
+         <drmd:titleOfTheDocument>Reference Material Certificate</drmd:titleOfTheDocument>
+         <drmd:uniqueIdentifier>dfd797d7-ab4c-4796-9bfa-188131ab0f59</drmd:uniqueIdentifier>
+         <drmd:identifications>
+            <drmd:identification refType="basic_certificateIdentification">
+               <drmd:issuer>The name of the producer of the reference material is:
+
+Bundesanstalt für Materialforschung und -prüfung (BAM)</drmd:issuer>
+               <drmd:value>BAM-S006</drmd:value>
+               <drmd:name>
+                  <dcc:content lang="en">Certified Reference Material</dcc:content>
+               </drmd:name>
+            </drmd:identification>
+         </drmd:identifications>
+         <drmd:periodOfValidity>This certificate is valid until there is a revocation from the producer of the material.</drmd:periodOfValidity>
+         <drmd:dataOfIssue>2023-10-23</drmd:dataOfIssue>
+      </drmd:coreData>
+      <drmd:items>
+         <drmd:item>
+            <drmd:name>
+               <dcc:content lang="en">XXXXXX</dcc:content>
+            </drmd:name>
+            <drmd:description>
+               <dcc:content lang="en">The Reference Material is available in the form of discs (approx. 38 mm diameter and 4 mm height) and in form of cullet.</dcc:content>
+            </drmd:description>
+            <drmd:minimumSampleSize>
+               <dcc:itemQuantity>
+                  <si:realListXMLList>
+                     <si:valueXMLList>0.2</si:valueXMLList>
+                     <si:unitXMLList>g</si:unitXMLList>
+                  </si:realListXMLList>
+               </dcc:itemQuantity>
+            </drmd:minimumSampleSize>
+            <drmd:identifications>
+               <drmd:identification>
+                  <drmd:issuer>The name of the producer of the reference material is:
+
+Bundesanstalt für Materialforschung und -prüfung (BAM)</drmd:issuer>
+                  <drmd:value>XXXXX</drmd:value>
+               </drmd:identification>
+            </drmd:identifications>
+         </drmd:item>
+      </drmd:items>
+      <drmd:referenceMaterialProducer>
+         <drmd:name>
+            <dcc:content lang="en">The name of the producer of the reference material is:
+
+Bundesanstalt für Materialforschung und -prüfung (BAM)</dcc:content>
+         </drmd:name>
+         <drmd:contact>
+            <dcc:name>
+               <dcc:content lang="en">Bundesanstalt für Materialforschung und -prüfung (BAM)</dcc:content>
+            </dcc:name>
+            <dcc:eMail>sales.crm@bam.de</dcc:eMail>
+            <dcc:phone>+49 30 8104 2061</dcc:phone>
+            <dcc:fax>+49 30 8104 72061</dcc:fax>
+            <dcc:location>
+               <dcc:street>Richard-Willstätter-Str.</dcc:street>
+               <dcc:streetNo>11</dcc:streetNo>
+               <dcc:postCode>12489</dcc:postCode>
+               <dcc:city>Berlin</dcc:city>
+               <dcc:countryCode>Germany</dcc:countryCode>
+            </dcc:location>
+         </drmd:contact>
+      </drmd:referenceMaterialProducer>
+      <drmd:respPersons>
+         <dcc:respPerson>
+            <dcc:person>
+               <dcc:name>
+                  <dcc:content lang="en">Dr. S. Richter</dcc:content>
+               </dcc:name>
+               <dcc:role>Committee for Certification</dcc:role>
+            </dcc:person>
+         </dcc:respPerson>
+         <dcc:respPerson>
+            <dcc:person>
+               <dcc:name>
+                  <dcc:content lang="en">Dr. S. Recknagel</dcc:content>
+               </dcc:name>
+               <dcc:role>Project Coordinator</dcc:role>
+            </dcc:person>
+         </dcc:respPerson>
+      </drmd:respPersons>
+      <drmd:statements>
+         <drmd:intendedUse>
+            <dcc:name>
+               <dcc:content lang="en">Intended Use</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">The CRM is intended for establishing or checking the calibration of X -ray spectrometers for the analysis of samples of similar matrix composition.</dcc:content>
+            </dcc:description>
+         </drmd:intendedUse>
+         <drmd:storageInformation>
+            <dcc:name>
+               <dcc:content lang="en">Storage Information</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">The material should be stored in a dry and clean environment at room temperature. Transport under normal ambient conditions.</dcc:content>
+            </dcc:description>
+         </drmd:storageInformation>
+         <drmd:instructionsForHandlingAndUse>
+            <dcc:name>
+               <dcc:content lang="en">Handling Instructions</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">Instructions for Use  
+Before use  of the disc , the surface of the material must be cleaned . After multiple measurements with XRF, 
+discolouration of the glass may occur. This can be reversed by heat treatment at 300 - 400 ° C.</dcc:content>
+            </dcc:description>
+         </drmd:instructionsForHandlingAndUse>
+         <drmd:metrologicalTraceability>
+            <dcc:name>
+               <dcc:content lang="en">Metrological Traceability</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">To ensure traceability of the certified mass fractions to the SI (Système International d’Unités) calibration for most of the data sets was performed using standard solutions prepared from pure metals or stoichiometric compounds or well checked commercial calibration solutions . Some of the datasets a re traceable to other certified reference materials or reference materials.</dcc:content>
+            </dcc:description>
+         </drmd:metrologicalTraceability>
+         <drmd:subcontractors>
+            <dcc:name>
+               <dcc:content lang="en">Subcontractors</dcc:content>
+            </dcc:name>
+            <dcc:description>
+               <dcc:content lang="en">Ardagh Glass Packaging - Europe, Nienburg/Weser, Germany  
+Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin, Germany  
+Cetim, Illkirch -Graffenstaden , France  
+Corning European Technology Center (CETC), S&amp;T European Laboratory, Fontainebleau, France  
+Corning US, Corning, NY, USA  
+Glashütte Freital GmbH, Freital, Germany  
+Glass Technology Services Ltd, Sheffield, South Yorkshire, United Kingdom  
+IGR Institut für Glas - und Rohstofftechnologie GmbH, Göttingen, Germany  
+INISMa (Institut Interuniversitaire des Silicates, S ols et Matériaux, Mons, Belgium  
+NSG, Lathom, United Kingdom  
+Schott AG, Jena, Germany  
+Schott AG, Mainz, Germany  
+Stazione Sperimentale del Vetro, Murano, Italy  
+Saint -Gobain Sekurit Deutschland GmbH, Herzogenrath, Germany  
+Stoelzle Oberglas GmbH, Köflach, Austria</dcc:content>
+            </dcc:description>
+         </drmd:subcontractors>
+      </drmd:statements>
+   </drmd:administrativeData>
+   <drmd:measurementResults>
+      <drmd:measurementResult isCertified="true">
+         <dcc:name>
+            <dcc:content lang="en">Certified mass fractions and their associated uncertainties.</dcc:content>
+         </dcc:name>
+         <dcc:results>
+            <dcc:result>
+               <dcc:name>
+                  <dcc:content lang="en">Certified Values</dcc:content>
+               </dcc:name>
+               <dcc:description>
+                  <dcc:content lang="en">1) Unweighted mean value of the means of accepted sets of data (consisting of at least 1 single results), each set 
+being obtained by a different laboratory and/or a different method of measurement. The values in brackets 
+were calculated from the mass fraction s of the elements using the atomic weights . 
+2) Estimated expanded uncertainty U with a coverage factor of k = 2, corresponding to a level of confidence of 
+approx. 95 %, as defined in the Guide to the Expression of Uncertainty in Measurement , (GUM, ISO/IEC Guide 
+98-3:2008).  The stated measurement uncertainties refer only to the mass fractions of the elements .</dcc:content>
+               </dcc:description>
+               <dcc:data>
+                  <dcc:list>
+                     <dcc:quantity refType="basic_measuredValue">
+                        <dcc:name>
+                           <dcc:content lang="en">S</dcc:content>
+                        </dcc:name>
+                        <si:real>
+                           <si:label>S</si:label>
+                           <si:value>201</si:value>
+                           <si:unit>mg/kg</si:unit>
+                           <si:expandedUnc>
+                              <si:uncertainty>9</si:uncertainty>
+                              <si:coverageFactor>k = 2</si:coverageFactor>
+                              <si:coverageProbability>approx. 95 %</si:coverageProbability>
+                              <si:distribution>normal</si:distribution>
+                           </si:expandedUnc>
+                        </si:real>
+                     </dcc:quantity>
+                     <dcc:quantity refType="basic_measuredValue">
+                        <dcc:name>
+                           <dcc:content lang="en">Sb</dcc:content>
+                        </dcc:name>
+                        <si:real>
+                           <si:label>Sb</si:label>
+                           <si:value>10.8</si:value>
+                           <si:unit>mg/kg</si:unit>
+                           <si:expandedUnc>
+                              <si:uncertainty>1.5</si:uncertainty>
+                              <si:coverageFactor>k = 2</si:coverageFactor>
+                              <si:coverageProbability>approx. 95 %</si:coverageProbability>
+                              <si:distribution>normal</si:distribution>
+                           </si:expandedUnc>
+                        </si:real>
+                     </dcc:quantity>
+                     <dcc:quantity refType="basic_measuredValue">
+                        <dcc:name>
+                           <dcc:content lang="en">Ti</dcc:content>
+                        </dcc:name>
+                        <si:real>
+                           <si:label>Ti</si:label>
+                           <si:value>391</si:value>
+                           <si:unit>mg/kg</si:unit>
+                           <si:expandedUnc>
+                              <si:uncertainty>6</si:uncertainty>
+                              <si:coverageFactor>k = 2</si:coverageFactor>
+                              <si:coverageProbability>approx. 95 %</si:coverageProbability>
+                              <si:distribution>normal</si:distribution>
+                           </si:expandedUnc>
+                        </si:real>
+                     </dcc:quantity>
+                  </dcc:list>
+               </dcc:data>
+            </dcc:result>
+         </dcc:results>
+      </drmd:measurementResult>
+   </drmd:measurementResults>
+</drmd:digitalReferenceMaterialDocument>

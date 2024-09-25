@@ -70,6 +70,7 @@ class Extract():
             question= """
                     Write down everything in the image as text.
                     Write tables in markdown with column seperators '|'.
+                    units must also be included in the table for each cell.
                 """
             #question= """Write down the tables in the image with units for each cell.
             #Write down everything in the image with seperators."""
@@ -90,10 +91,10 @@ class Extract():
 methods = ['ocr','text']
 method = methods[1]
 
-#pdf_path = "./Certificate_BAM_A001.pdf"
+pdf_path = "./CRM/Certificate_BAM_A001.pdf"
 #pdf_path = "/home/balbakri/ragger/Zertifikat BAM-U117_V2.pdf"
 #pdf_path = '/home/balbakri/ragger/Screenshot from 2024-07-25 15-24-19.png'
-pdf_path = '/home/balbakri/ragger/first_model/CRM/Zertifikat BAM-U117_V2.pdf'
+#pdf_path = '/home/balbakri/ragger/first_model/CRM/Zertifikat BAM-U117_V2.pdf'
 save_path = "./CRM_text/" + pdf_path.split('/')[-1].strip('.pdf') + '.txt'
 extractor = Extract(pdf_path,device='cuda:1',method=method)
 

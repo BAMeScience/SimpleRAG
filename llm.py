@@ -57,11 +57,11 @@ class LLM():
 
 
 
-
+docPath = '/home/balbakri/ragger/first_model/CRM_text/578-2 Zert._englische Fassung_v3.txt'
 #context = open('../Doc3.txt', "r").read()
-context = open('/home/balbakri/ragger/Doc3.txt', "r").read()
-questions = open('questions_comprehensive.txt', "r").read()
-SQuestion = open('questionSpecific.txt', "r").read()
+context = open(docPath, "r").read()
+#questions = open('questions_comprehensive.txt', "r").read()
+#SQuestion = open('questionSpecific.txt', "r").read()
 #llm1 = LLM(model='phi3:14b')
 #res =llm1.getAnswer(context=context,question=questions)
 #outPath = 'responseAtOnce.txt'
@@ -72,8 +72,8 @@ SQuestion = open('questionSpecific.txt', "r").read()
 
 Dox = context.split('new page')
 #questions_split = questions.split('\n')[1:]
-questions_split = questions.split('[question]')[1:]
-
+#questions_split = questions.split('[question]')[1:]
+'''
 intitalAnswers = {}
 
 for k, page in enumerate(Dox):
@@ -105,10 +105,11 @@ for iq,q in enumerate(questions_split):
     filteredAnswers.append(res)
     FilteredAnswerDict[q] = intitalAnswers[res][iq]
 FilteredAnswerDict[questions_split[0]] = intitalAnswers['0'][0] # title always in the first page
-
+'''
 
 
 ############################# Tables ######################
+allTables = ''
 for D in Dox:
 
     model = 'llama3:70b' #'llama3:70b' # 'mistral' #
@@ -124,9 +125,30 @@ for D in Dox:
                               prompt=prompt_full,temp=0)
 
     print(res)
+    allTables = allTables + res
     print('################################################################')
 
 
+
+######### output the table in json ###############
+    
+
+model = 'llama3:8b' #'llama3:70b' # 'mistral' #
+#task = """given the above text, there are many differnet measurements, different measurement mean independent tables or sets of measurements. how many sets are there?"""
+#question = "units must be accurate &Multiple! Extract all tables in the given context."#"How many set of measurements are in the certificate? a set can be represented in a table. one table of measurements would be set." #
+question = """Extract the table of the certified values in the given context with title and footnote if available. The table typically contains mainly two information, the mass fraction and the uncertainty of the measurand with units. output the table in json with 'measurand', 'mass fraction', 'mass fraction unit', 'uncertainity', and 'uncertainity unit' as keys for each element in the table. """
+
+
+prompt_full = f"""You are an assistant for question-answering tasks. Use the following pieces of retrieved context to answer the question.
+If you don't know the answer, just say that you don't know.
+\nQuestion: {question}"""
+
+TabLLM = LLM(model=model)
+res =TabLLM.custom(context=allTables,
+                            prompt=prompt_full,temp=0)
+
+print(res)
+print('################################################################')
 ####################### Shuffle and Temperature ##############
 
 

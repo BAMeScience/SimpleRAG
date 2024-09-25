@@ -101,7 +101,7 @@ def pdfFile(file_path):
     #ram_usage = psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024
     return pred_bbox, image 
 
-pdf_path = "../Certificate_BAM_A001.pdf" #"./"
+pdf_path = '/home/balbakri/ragger/first_model/CRM/578-2 Zert._englische Fassung_v3.pdf'
 pred_bbox, image = table_detection(pdf_path)
 
 bbox = np.array((pred_bbox[0].int()).tolist())

@@ -96,11 +96,11 @@ def create_xml(json_file,out_path):
 
         contact_name = contact_details['Name']
         contact_email = contact_details['Email']
-        contact_phone = contact_details['Phone']
-        contact_fax = contact_details['Fax']
+        contact_phone = str(contact_details['Phone'])
+        contact_fax = str(contact_details['Fax'])
         contact_street = contact_details['street']
         contact_street_no = str(contact_details['streetNo'])
-        contact_postcode = contact_details['postCode']
+        contact_postcode = str(contact_details['postCode'])
         contact_city = contact_details['city']
         contact_country = contact_details['country']
     
@@ -187,41 +187,96 @@ def create_xml(json_file,out_path):
 
     subcontractors = ET.SubElement(statements, f"{{{drmd_ns}}}subcontractors")
     ET.SubElement(ET.SubElement(subcontractors, f"{{{dcc_ns}}}name"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = "Subcontractors"
-    subcontractors_desc = 'XXXXX'
+    subcontractors_desc = json_file['subcontractors']
     ET.SubElement(ET.SubElement(subcontractors, f"{{{dcc_ns}}}description"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = subcontractors_desc
 
     # Add measurementResults section
     measurement_results = ET.SubElement(root, f"{{{drmd_ns}}}measurementResults")
-    measurement_result = ET.SubElement(measurement_results, f"{{{dcc_ns}}}measurementResult", {"xmlns:si": si_ns})
+    measurement_result = ET.SubElement(measurement_results, 'drmd:measurementResult', {'isCertified': 'true'})
 
-    ET.SubElement(ET.SubElement(measurement_result, f"{{{dcc_ns}}}name"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = "Results of calibration"
-    measurement_result_desc = 'XXXXX'
-    ET.SubElement(ET.SubElement(measurement_result, f"{{{dcc_ns}}}description"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = measurement_result_desc
+    # Create dcc:name element with content
+    name = ET.SubElement(measurement_result, 'dcc:name')
+    content_name = ET.SubElement(name, 'dcc:content', {'lang': 'en'})
+    content_name.text = 'Certified mass fractions and their associated uncertainties.'
 
-    # Add results section with quantities
-    results = ET.SubElement(measurement_result, f"{{{dcc_ns}}}results")
-    result = ET.SubElement(results, f"{{{dcc_ns}}}result")
+    # Create dcc:results element
+    results = ET.SubElement(measurement_result, 'dcc:results')
 
-    ET.SubElement(ET.SubElement(result, f"{{{dcc_ns}}}name"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = "Mass fraction of elements"
+    # Create dcc:result element
+    result = ET.SubElement(results, 'dcc:result')
 
-    # Certified Values
-    quantity_certified = ET.SubElement(result, f"{{{dcc_ns}}}quantity", {"refType": "basic_referenceValue"})
-    ET.SubElement(ET.SubElement(quantity_certified, f"{{{dcc_ns}}}name"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = "Certified Values"
-    certified_value = 'XXXXX'
-    certified_unit = 'XXXXXX'
-    real_list_certified = ET.SubElement(quantity_certified, f"{{{si_ns}}}realListXMLList")
-    ET.SubElement(real_list_certified, f"{{{si_ns}}}valueXMLList").text = certified_value
-    ET.SubElement(real_list_certified, f"{{{si_ns}}}unitXMLList").text = certified_unit
+    # Create dcc:name element inside result
+    result_name = ET.SubElement(result, 'dcc:name')
+    result_content_name = ET.SubElement(result_name, 'dcc:content', {'lang': 'en'})
+    result_content_name.text = 'Certified Values'
 
-    # Uncertainty
-    quantity_uncertainty = ET.SubElement(result, f"{{{dcc_ns}}}quantity", {"refType": "basic_measurementError"})
-    ET.SubElement(ET.SubElement(quantity_uncertainty, f"{{{dcc_ns}}}name"), f"{{{dcc_ns}}}content", {"lang": "en"}).text = "Uncertainty"
-    uncertainty_value = 'XXXXXX'
-    uncertainty_unit = 'XXXXX'
-    real_list_uncertainty = ET.SubElement(quantity_uncertainty, f"{{{si_ns}}}realListXMLList")
-    ET.SubElement(real_list_uncertainty, f"{{{si_ns}}}valueXMLList").text = uncertainty_value
-    ET.SubElement(real_list_uncertainty, f"{{{si_ns}}}unitXMLList").text = uncertainty_unit
+    # Create dcc:description element inside result
+    description = ET.SubElement(result, 'dcc:description')
+    description_content = ET.SubElement(description, 'dcc:content', {'lang': 'en'})
+    description_content.text = json_file['certifiedValues_Footnote']
 
+    # Create dcc:data element inside result
+    data = ET.SubElement(result, 'dcc:data')
+
+    # Create dcc:list element inside data
+    data_list = ET.SubElement(data, 'dcc:list')
+    try:
+        certValues = json.loads(json_file['certifiedValues'])
+        len_certValues = len(certValues)
+    except Exception as e:
+        len_certValues = 0
+        print("""Error accured while writing table:""", e)
+
+    try:
+        U_parameters = json.loads(json_file['UncertaintyParameters'])
+        coverageFactor = str(U_parameters['coverage factor'])
+        confidence = str(U_parameters['confidence'])
+
+    except Exception as e:
+        coverageFactor = 'not found'
+        confidence = 'not found'
+    
+    for i in range(len_certValues):
+        quantity = ET.SubElement(data_list, 'dcc:quantity', {'refType': 'basic_measuredValue'})
+
+        # Create dcc:name element inside quantity
+        quantity_name = ET.SubElement(quantity, 'dcc:name')
+        quantity_content_name = ET.SubElement(quantity_name, 'dcc:content', {'lang': 'en'})
+        quantity_content_name.text = certValues[i]['measurand']
+
+        # Create si:real element inside quantity
+        real = ET.SubElement(quantity, 'si:real')
+
+        # Create si:label element inside real
+        label = ET.SubElement(real, 'si:label')
+        label.text = certValues[i]['measurand']
+
+        # Create si:value element inside real
+        value = ET.SubElement(real, 'si:value')
+        value.text = str(certValues[i]['mass fraction'])
+
+        # Create si:unit element inside real
+        unit = ET.SubElement(real, 'si:unit')
+        unit.text = str(certValues[i]['mass fraction unit'])
+
+        # Create si:expandedUnc element inside real
+        expanded_unc = ET.SubElement(real, 'si:expandedUnc')
+
+        # Create si:uncertainty inside si:expandedUnc
+        uncertainty = ET.SubElement(expanded_unc, 'si:uncertainty')
+        uncertainty.text = str(certValues[i]['uncertainty'])
+
+        # Create si:coverageFactor inside si:expandedUnc
+        coverage_factor = ET.SubElement(expanded_unc, 'si:coverageFactor')
+        coverage_factor.text = coverageFactor
+
+        # Create si:coverageProbability inside si:expandedUnc
+        coverage_probability = ET.SubElement(expanded_unc, 'si:coverageProbability')
+        coverage_probability.text = confidence
+
+        # Create si:distribution inside si:expandedUnc
+        distribution = ET.SubElement(expanded_unc, 'si:distribution')
+        distribution.text = 'normal'
     # Convert the ElementTree to a string and pretty print
     xml_str = ET.tostring(root, encoding='utf-8')
     pretty_xml_str = minidom.parseString(xml_str).toprettyxml(indent="   ")

@@ -45,14 +45,14 @@
     },
 
     {
-    "Question": "What is the Minimum Sample Size?",
-    "Hint": "the minimum sample size is just a number, example 5 grams. your asnswer should be outputed in json so: 'value': 5,'Unit': 'gram'"
+    "Question": "What is the minimum sample size?",
+    "Hint": "output the results in json with 'value' and 'Unit' as keys. Do not write anything other than the json."
     ,"XML_ID":"minimumSampleSize"
     ,"XML_path":["/drmd:digitalReferenceMaterialDocument/drmd:administrativeData/drmd:items/drmd:item/drmd:minimumSampleSize/dcc:itemQuantity/si:realListXMLList"]
     },
 
     {
-    "Question": "What is the Name of the producer?",
+    "Question": "What is the name of the poducer of the reference material?",
     "Hint": ""
     ,"XML_ID":"producer",
     "XML_path":["/drmd:digitalReferenceMaterialDocument/drmd:administrativeData/drmd:referenceMaterialProducer/drmd:name/dcc:content","/drmd:digitalReferenceMaterialDocument/drmd:administrativeData/drmd:coreData/drmd:identifications/drmd:identification/drmd:issuer"]},
@@ -103,6 +103,31 @@
     "Hint": "",
     "XML_ID":"metrologicalTraceability",
     "XML_path":["/drmd:digitalReferenceMaterialDocument/drmd:administrativeData/drmd:statements/drmd:metrologicalTraceability/dcc:description/dcc:content"]
-    }
+    },
+    {
+    "Question": "Who are the collaborating labs or subcontractors with the main producer?",
+    "Hint": "output only the extracted text. Dont add any text.",
+    "XML_ID":"subcontractors",
+    "XML_path":["/drmd:digitalReferenceMaterialDocument/drmd:administrativeData/drmd:statements/drmd:metrologicalTraceability/dcc:description/dcc:content"]
+    },
+    {
+    "Question": "Extract the table of the certified values in the given context with title and footnote if available. The table typically contains mainly two information, the mass fraction and the uncertainty of the measurand with units.",
+    "Hint": "output the table in json with 'measurand', 'mass fraction', 'mass fraction unit', 'uncertainty', and 'uncertainty unit' as keys for each element in the table. Do not write anything other than the json.",
+    "XML_ID":"certifiedValues",
+    "XML_path":[]
+    },
+    {
+    "Question": "Extract footnote of the table of the certified values in the given context, the footnote can contain information about the uncertainty and the coverage factor as well other information.",
+    "Hint": "Extract the complete footnote only without the table.",
+    "XML_ID":"certifiedValues_Footnote",
+    "XML_path":[]
+    },
 
+    {
+    "Question": "Extarct the coverage factor of uncertainty and level of confidence.",
+    "Hint": "output the results in json with 'coverage factor' and 'confidence' as keys. Do not write anything other than the json.",
+    "XML_ID":"UncertaintyParameters",
+    "XML_path":[]
+    }
+    
 ]

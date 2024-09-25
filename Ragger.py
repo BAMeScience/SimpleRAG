@@ -15,8 +15,11 @@ from langchain_community.document_loaders import TextLoader
 import ollama
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 import json
-
+import faiss
+from langchain_community.vectorstores import FAISS
 from langchain.storage import InMemoryByteStore
+import faiss
+from langchain_community.docstore.in_memory import InMemoryDocstore
 import uuid
 from langchain_experimental.text_splitter import SemanticChunker
 
@@ -48,6 +51,11 @@ class RAGRetriever():
         self.vecStoreDir = vecStoreDir
         self.chatModel = ChatOllama(model=GeneratorModel, temperature=temp, 
                                     device=device)
+    
+    
+    def update_chat_model(self, GeneratorModel='llama3:70b', temp=0, device='cuda'):
+        self.chatModel = ChatOllama(model=GeneratorModel, temperature=temp, device=device)
+
     def get_chunks(self,chunk_size =1000,chunk_overlap=500):
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size,
@@ -94,7 +102,7 @@ class RAGRetriever():
             List[Document]: List of chunked documents
         """
         splitter = SemanticChunker(
-            CH.embedding_function, breakpoint_threshold_type="gradient"
+            self.embedding_function, breakpoint_threshold_type="gradient"
         )
         return splitter.split_documents(docs)
     def createVecStore_multiVec(self,chunk_size =1000,chunk_overlap=500):
@@ -102,13 +110,32 @@ class RAGRetriever():
         id_key = "doc_id"
         # The retriever (empty to start)
         docs = self.get_chunks(chunk_size =chunk_size,chunk_overlap=chunk_overlap)
+        
+        
         retriever = MultiVectorRetriever(
             vectorstore=Chroma(collection_name="summaries", embedding_function=self.embedding_function),
             byte_store=store,
             id_key=id_key,
-            search_kwargs={"k": 3},
+            search_kwargs={"k": 4},
             search_type='mmr')
-        
+        '''
+        ###### Faiss#######
+        self.index = faiss.IndexFlatL2(len(self.embedding_function.embed_query("hello world")))
+        vectorstore = FAISS.from_documents(
+        documents=docs,             # Your list of documents
+        docstore=InMemoryDocstore(),
+        embedding=self.embedding_function,         # Your embedding function
+        distance_strategy="MAX_INNER_PRODUCT" # Use dot product similarity
+        )
+
+        retriever = MultiVectorRetriever(
+            vectorstores=vectorstore,  # You can add more vectorstores here
+            search_kwargs={"k": 2},
+            byte_store=store,
+            id_key=id_key,      # Number of nearest neighbors to retrieve
+        )
+        ##### Faiss#######
+        '''
         doc_ids = [str(uuid.uuid4()) for _ in docs]
         child_text_splitter = RecursiveCharacterTextSplitter(chunk_size=200,
                                                              chunk_overlap=50,
@@ -120,6 +147,8 @@ class RAGRetriever():
             _sub_docs = child_text_splitter.split_documents([doc])
             for _doc in _sub_docs:
                 _doc.metadata[id_key] = _id
+                #_doc.metadata["original_chunk"] = doc.page_content  # Store original chunk content
+
             sub_docs.extend(_sub_docs)
         
         

@@ -3,18 +3,19 @@
    <drmd:administrativeData>
       <drmd:coreData>
          <drmd:titleOfTheDocument>Reference Material Certificate</drmd:titleOfTheDocument>
-         <drmd:uniqueIdentifier>dc683308-0204-472d-b138-1d4025d727ab</drmd:uniqueIdentifier>
+         <drmd:uniqueIdentifier>7fca92f2-de70-4c16-82ff-adb4d48ebb64</drmd:uniqueIdentifier>
          <drmd:identifications>
             <drmd:identification refType="basic_certificateIdentification">
                <drmd:issuer>The name of the producer of the reference material is Bundesanstalt für Materialforschung und -prüfung (BAM).</drmd:issuer>
-               <drmd:value>BAM-U026</drmd:value>
+               <drmd:value>CRM BAM-U117</drmd:value>
                <drmd:name>
                   <dcc:content lang="en">Certified Reference Material</dcc:content>
                </drmd:name>
             </drmd:identification>
          </drmd:identifications>
-         <drmd:periodOfValidity>This certificate is valid for a period of 12 months starting with the dispatch of the reference material from BAM.</drmd:periodOfValidity>
-         <drmd:dataOfIssue>Accepted as a BAM-CRM on December 13, 2023</drmd:dataOfIssue>
+         <drmd:periodOfValidity>This certificate is valid for a period of 12 months beginning with the dispatch of 
+the reference material from BAM.</drmd:periodOfValidity>
+         <drmd:dataOfIssue>Not found.</drmd:dataOfIssue>
       </drmd:coreData>
       <drmd:items>
          <drmd:item>
@@ -22,9 +23,10 @@
                <dcc:content lang="en">XXXXXX</dcc:content>
             </drmd:name>
             <drmd:description>
-               <dcc:content lang="en">**Material Description**
+               <dcc:content lang="en">The CRM BAM-U117 represents a mixture of a sandy soil collected from a contaminated mass basis. Gravimetric method 
 
-Reference material BAM-U026 was obtained by blending a sandy loamy soil from a contaminated site in Berlin, Germany with a TPH free sandy loamy soil sampled near Berlin, Germany. After air-drying, sieving fractions &lt; 125 µm were mixed, homogenized, and subdivided into 70 g which were filled in amber glass bottles with screw caps equipped with PTFE-inserts and sealed with shrinking foil. The material is stored at BAM at -20 °C until dispatch. Details of the preparation and characterization procedures are specified in the certification report.</dcc:content>
+Material  Description  
+The CRM BAM -U117 represents a mixture of a sandy soil collected from a contaminated region (Mongolia). The raw materials were dried at ambient air to constant mass, and afterwards the fractions passing a 2 mm screen were ground to particle sizes below 125 µm. Before bottling, the two fractions were mixed and homogenized.</dcc:content>
             </drmd:description>
             <drmd:minimumSampleSize>
                <dcc:itemQuantity>
@@ -52,11 +54,11 @@ Reference material BAM-U026 was obtained by blending a sandy loamy soil from a c
             </dcc:name>
             <dcc:eMail>sales.crm@bam.de</dcc:eMail>
             <dcc:phone>+49 30 8104 2061</dcc:phone>
-            <dcc:fax>+49 30 817206104</dcc:fax>
+            <dcc:fax>+49 30 8104 72061</dcc:fax>
             <dcc:location>
-               <dcc:street>Richard-Willstätter-Straße</dcc:street>
+               <dcc:street>Richard-Willstätter-Str.</dcc:street>
                <dcc:streetNo>11</dcc:streetNo>
-               <dcc:postCode>D-12489</dcc:postCode>
+               <dcc:postCode>12489</dcc:postCode>
                <dcc:city>Berlin</dcc:city>
                <dcc:countryCode>Germany</dcc:countryCode>
             </dcc:location>
@@ -74,7 +76,7 @@ Reference material BAM-U026 was obtained by blending a sandy loamy soil from a c
          <dcc:respPerson>
             <dcc:person>
                <dcc:name>
-                  <dcc:content lang="en">Dr. R. Becker</dcc:content>
+                  <dcc:content lang="en">Dr. S. Recknagel</dcc:content>
                </dcc:name>
                <dcc:role>Project Coordinator</dcc:role>
             </dcc:person>
@@ -86,7 +88,7 @@ Reference material BAM-U026 was obtained by blending a sandy loamy soil from a c
                <dcc:content lang="en">Intended Use</dcc:content>
             </dcc:name>
             <dcc:description>
-               <dcc:content lang="en">The intended purpose of reference material BAM-U026 is the verification of analytical procedures equivalent to ISO 16703:2011 for the determination of the TPH content in soils and sediments by GC-FID.</dcc:content>
+               <dcc:content lang="en">The intended purpose of CRM BAM -U117 is the verification of analytical results obtained for the mass fraction of total cyanide in soils and soil -like materials applying the standardized procedures DIN ISO 11262:2012 [1] and DIN EN ISO 17380:2013 [2]. As any reference material, it can also be used for routine performance checks (quality control charts) or validation studies.</dcc:content>
             </dcc:description>
          </drmd:intendedUse>
          <drmd:storageInformation>
@@ -94,8 +96,8 @@ Reference material BAM-U026 was obtained by blending a sandy loamy soil from a c
                <dcc:content lang="en">Storage Information</dcc:content>
             </dcc:name>
             <dcc:description>
-               <dcc:content lang="en">**Transport and Storage**
-The stability of the content of TPH allows dispatching the material at ambient temperature. On receiving, it is to be stored at -20 °C. Before withdrawing a subsample the bottle must have reached ambient temperature. Thereafter, the bottle must be closed tightly and stored at -20 °C again.</dcc:content>
+               <dcc:content lang="en">CRM BAM -U117 can be shipped at ambient temperature. Upon receipt the material has to 
+be stored at a temperature of (4 ± 2) °C in its original tightly closed bottle.</dcc:content>
             </dcc:description>
          </drmd:storageInformation>
          <drmd:instructionsForHandlingAndUse>
@@ -103,11 +105,9 @@ The stability of the content of TPH allows dispatching the material at ambient t
                <dcc:content lang="en">Handling Instructions</dcc:content>
             </dcc:name>
             <dcc:description>
-               <dcc:content lang="en">**Recommended Use**
-BAM-U026 is explicitly meant only to be used in analytical laboratories. The intended purpose of reference material BAM-U026 is the verification of analytical procedures equivalent to ISO 16703:2011 for the determination of the TPH content in soils and sediments by GC-FID. It is strongly recommended to handle and dispose of the reference material in accordance with the guidelines for analytical soil samples legally in force at the site of end use and disposal.
+               <dcc:content lang="en">Here is the section for instructions for handling and use:
 
-**Transport and Storage**
-The stability of the content of TPH allows dispatching the material at ambient temperature. On receiving, it is to be stored at -20 °C. Before withdrawing a subsample the bottle must have reached ambient temperature. Thereafter, the bottle must be closed tightly and stored at -20 °C again.</dcc:content>
+&quot;Immediately after opening, the bottle should be stored at ambient temperature. Thereafter, the bottle should be closed tightly and stored at (4 ± 2) °C. The stability of the reference material is not affected by short periods of handling at ambient temperature during transport and use.&quot;</dcc:content>
             </dcc:description>
          </drmd:instructionsForHandlingAndUse>
          <drmd:metrologicalTraceability>
@@ -115,8 +115,13 @@ The stability of the content of TPH allows dispatching the material at ambient t
                <dcc:content lang="en">Metrological Traceability</dcc:content>
             </dcc:name>
             <dcc:description>
-               <dcc:content lang="en">**Metrological Traceability**
-The total petroleum hydrocarbon content is defined by the method employed for its determination. The certified value is the mass fraction of mineral oil obtained by the analytical procedure according to ISO 16703:2011 in relation to the certified calibration standard BAM-K010g. Thus, the stated references for BAM-U026 are ISO 16703:2011 and the calibration standard BAM-K010g mentioned for this purpose therein.</dcc:content>
+               <dcc:content lang="en">The certified mass fraction of total cyanide in CRM BAM -U117 is operationally -defined 
+referring to the analytical protocol s prescribed by DIN ISO 11262:2011 and DIN EN ISO 
+17380:2013. The photometric determination of the liberated cyanide is traceable to the 
+
+liberatable cyanide - Continuous -flow analysis method (Bodenbeschaffenheit - 
+Bestimmung des Gehalts an Gesamtcyanid und leicht freisetzbarem Cyanid - 
+Verfahren mittels kontinuierlicher Durchflussanalyse)</dcc:content>
             </dcc:description>
          </drmd:metrologicalTraceability>
          <drmd:subcontractors>
@@ -124,7 +129,22 @@ The total petroleum hydrocarbon content is defined by the method employed for it
                <dcc:content lang="en">Subcontractors</dcc:content>
             </dcc:name>
             <dcc:description>
-               <dcc:content lang="en">not found</dcc:content>
+               <dcc:content lang="en">AWV- Dr. Busse GmbH,  Plauen
+AZBA Analytisches Zentrum Berlin -Adlershof GmbH, Berlin
+Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin
+GEOTAIX Umwelttechnologie GmbH, Würselen
+ICA - Institut für Chemische Analytik GmbH, Leipzig
+IFU GmbH Gewerbliches Institut für Fragen des Umweltschutzes, Heitersheim
+IHU Geologie und Analytik, Gesellschaft für Ingenieur - Hydro- und Umweltgeologie mbH , 
+Stendal
+Institut Dr. Lörcher und Partner mbB Handelschemiker, Ludwigsburg
+Institut Dr. Nowak GmbH &amp; Co. KG, Ottersberg
+Laboratorien Dr. Döring GmbH , Bremen
+Terrachem -Essen GmbH, Essen
+Thüringer Umweltinstitut Henterich GmbH, Krauthausen
+UCL Umwelt Control Labor GmbH, Lünen
+Wartig Chemieberatung GmbH, Marburg
+WESSLING GmbH, Weiterstadt</dcc:content>
             </dcc:description>
          </drmd:subcontractors>
       </drmd:statements>
@@ -140,23 +160,22 @@ The total petroleum hydrocarbon content is defined by the method employed for it
                   <dcc:content lang="en">Certified Values</dcc:content>
                </dcc:name>
                <dcc:description>
-                  <dcc:content lang="en">¹ Unweighted mean value of the means of six data sets obtained with the procedure according to ISO 16703:2011.
-² Estimated expanded uncertainty with a coverage factor of k = 2, corresponding to a level of confidence of approx. 95 %, as defined in the Guide to the expression of uncertainty in measurement, (GUM, ISO/IEC Guide 98-3:2008).</dcc:content>
+                  <dcc:content lang="en">2) Estimated expanded uncertainty U with a coverage factor of k = 2, corresponding to a level of confidence of approx. 95 %, as defined in the Guide to the expression of uncertainty in measurement, (GUM, ISO/IEC Guide 98 -3:2008).</dcc:content>
                </dcc:description>
                <dcc:data>
                   <dcc:list>
                      <dcc:quantity refType="basic_measuredValue">
                         <dcc:name>
-                           <dcc:content lang="en">Total petroleum hydrocarbons</dcc:content>
+                           <dcc:content lang="en">Total cyanide</dcc:content>
                         </dcc:name>
                         <si:real>
-                           <si:label>Total petroleum hydrocarbons</si:label>
-                           <si:value>1355</si:value>
-                           <si:unit/>
+                           <si:label>Total cyanide</si:label>
+                           <si:value>11.0</si:value>
+                           <si:unit>mg/kg</si:unit>
                            <si:expandedUnc>
-                              <si:uncertainty>130</si:uncertainty>
-                              <si:coverageFactor>k = 2</si:coverageFactor>
-                              <si:coverageProbability>approx. 95 %</si:coverageProbability>
+                              <si:uncertainty>0.7</si:uncertainty>
+                              <si:coverageFactor>2</si:coverageFactor>
+                              <si:coverageProbability>95 %</si:coverageProbability>
                               <si:distribution>normal</si:distribution>
                            </si:expandedUnc>
                         </si:real>
