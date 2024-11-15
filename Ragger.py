@@ -27,8 +27,7 @@ from langchain_core.prompts import ChatPromptTemplate
 import logging
 logging.basicConfig()
 logging.getLogger("langchain.retrievers.multi_query").setLevel(logging.INFO)
-#### for later improvements: https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_multi_modal_RAG_LLaMA2.ipynb?ref=blog.langchain.dev
-#### https://python.langchain.com/v0.2/docs/tutorials/rag/
+
 import ollama
 
 class RAGRetriever():
@@ -118,24 +117,7 @@ class RAGRetriever():
             id_key=id_key,
             search_kwargs={"k": 4},
             search_type='mmr')
-        '''
-        ###### Faiss#######
-        self.index = faiss.IndexFlatL2(len(self.embedding_function.embed_query("hello world")))
-        vectorstore = FAISS.from_documents(
-        documents=docs,             # Your list of documents
-        docstore=InMemoryDocstore(),
-        embedding=self.embedding_function,         # Your embedding function
-        distance_strategy="MAX_INNER_PRODUCT" # Use dot product similarity
-        )
 
-        retriever = MultiVectorRetriever(
-            vectorstores=vectorstore,  # You can add more vectorstores here
-            search_kwargs={"k": 2},
-            byte_store=store,
-            id_key=id_key,      # Number of nearest neighbors to retrieve
-        )
-        ##### Faiss#######
-        '''
         doc_ids = [str(uuid.uuid4()) for _ in docs]
         child_text_splitter = RecursiveCharacterTextSplitter(chunk_size=200,
                                                              chunk_overlap=50,
@@ -164,7 +146,6 @@ class RAGRetriever():
         prompt= """
                 For processing text it is essential to chunk text for LLMs.
                 Chunks must be coherrent and related.
-                You are an expert on chunking and therefore you will be passed a text to chunk.
                 Instructions:
                 1- Related text must be in one chunk, just add the seperator "chunk_here"
                 before each chunk. 
@@ -246,37 +227,3 @@ class RAGRetriever():
         chain = {"context": RETRIEVER | format_docs,
                   "question": RunnablePassthrough()} | prompt | self.chatModel | StrOutputParser()
         return chain.invoke(Q)
-
-
-
-    
-
-
-
-'''
-import numpy as np
-Q_e = np.array(CH.embedding_function.embed_query(query))
-q_lsit = []
-for chun in CH.chunks:
-    q_lsit.append(CH.embedding_function.embed_query(chun.page_content))
-Q_array= np.array(q_lsit)
-'''
-#CH.retrieverTest.get_relevant_documents(query)
-
-
-
-
-
-
-#CH = Chunker1('Doc.txt',device='cuda:0')
-
-
-
-#CH.get_chunksLLM()
-
-#CH.db.similarity_search('On which date was the material accepted as BAM-CRM?')
-#CH.db.similarity_search('when was it accepted as BAM-CRM?')
-
-
-
-#CH.test.similarity_search('what is the storage information?')

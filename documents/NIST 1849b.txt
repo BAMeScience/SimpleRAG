@@ -1,0 +1,242 @@
+SRM  1849b Page 1 of 5 Date of Issue:  
+09 March  2023 
+ 
+Standard Reference Material 1849b 
+Infant/Adult Nutritional Formula  I 
+(milk -based)  
+CERTIFICATE OF ANALYSIS  
+ 
+Purpose:   The certified values delivered by this Standard Reference Material  (SRM) are intended for validating 
+methods for determining elements  and vitamins  in infant and adult nutritional formulas and similar materials and for 
+quality assurance when assigning values to in -house control materials.  
+ 
+Description:   A unit of SRM  1849b consists of 10 packets, each containing approximately 10 g of material . 
+ 
+Certified Values:   NIST certified values are traceable to  the International System of Units  (SI) derived unit of mass 
+fraction, expressed as milligrams per kilogram.   The values are reported on an as -received basis  [1]. 
+Table  1.  Certified Values for Various Measurands  in SRM  1849b 
+ Mass Fraction(a) 
+(mg/kg)   Mass Fraction(a) 
+(mg/kg) 
+Chromium (Cr)   1.033 ± 0.018   Molybdenum (Mo)   1.741  ± 0.063  
+Copper (Cu)   18.96  ± 0.30  Phosphorus (P)  3750 ± 130 
+Iodine (I)   2.03 ± 0.19  Selenium (Se)   0.816  ± 0.025  
+Iron (Fe)  168.0  ± 7.4    
+Magnesium (Mg)   1570  ± 30  Cyanocobalamin (Vitamin B 12)  0.0497  ± 0.0046  
+ 
+(a) Values are expressed as x  ± U95%(x), where x  is the certified value and U 95%(x) is the expanded uncertainty of the certified 
+value.  The true value of the analyte lies within the interval x ± U95%(x) with 95 % confidence.  To propagate this uncertainty, 
+treat the certified value as a normally distributed random variable with mean x  and standard deviation U 95%(x)/2 [2–6]. 
+ 
+Non-Certified Values:   Non-certified values for elements, vitamins, carotenoids, fatty acids, proximates, sugars, other 
+nutrients, nucleotides, amino acids, and taurine in SRM 1849b are provided in Appendix A. 
+ 
+Period of Validity:   The certified values delivered by SRM  1849b are valid within the measurement uncertainty 
+specified until 31  December  2032 .  The certified values are nullified if the SRM is stored or used improperly, 
+damaged, contaminated, or otherwise modified.  
+ 
+Maintenance of Certif ied Values :  NIST will monitor this SRM over the period of its validity.  If substantive 
+technical changes occur that affect the certification, NIST will issue an amended certificate through the NIST SRM 
+website (https://www.nist.gov/srm ) and notify registered users.  SRM users can register online from a link available 
+on the NIST SRM website or fill out the user registration form that is supplied with the SRM.  Registration  will 
+facilitate notification.  Before making use of any of the values delivered by this material, users should verify they have the most recent version of this documentation, available through the NIST SRM website ( https://www.nist.gov/srm ).  
+ 
+ 
+Safety:  SRM  1849b is intended for research use only; not for human consumption.  
+ 
+Storage and Handling:   The original unopened packets of SRM  1849b should be stored at –20 °C or colder.  For 
+vitamin  B12, the certification only applies to the initial use and the same results are not guaranteed if the remaining 
+powder is used at a later date.  For inorganic constituents, an open packet can be reused until the material reaches its 
+expiration date, provided that th e open packet is resealed and stored at – 20 °C or lower.   For all non -certified 
+constituents, the value assignment only applies to the initial use as stability in previously opened packets has not been 
+evaluated.  
+ 
+ 
+Carlos A. Gonzalez,  Chief  Steven J . Choquette,  Director  
+Chemical Sciences Division  Office of Reference Materials  
+  
+new page 
+ SRM  1849b Page 2 of 5  
+Use:   Before use, a packet should be allowed to warm to room temperature, and the contents of the packet should be 
+mixed thoroughly by shaking the packet.  Allow the contents  to settle for one  minute prior to opening to minimize the 
+loss of fine particles .  For certified values to be valid, test portion size should be based on descriptions of NIST 
+methods  [7].  Results obtained should include their own estimates of uncertainty and can be compared to the certified 
+values using procedures described in reference 8. 
+ 
+Source :  SRM  1849b is a milk -based, hybrid infant/adult nutritional powder, prepared by a manufacturer of infant 
+formula and adult nutritional products.  
+ Analy sis:  Measurements used to value assign SRM 1849b values were performed at NIST using a variety of 
+analytical techniques, by the material manufacturer, and by participants of NIST interlaboratory comparison 
+studies  [7]. 
+  
+REFERENCES  
+ 
+[1] Beauchamp,  C.R.; Camara,  J.E.; Carney,  J.; Choquette,  S.J.; Cole,  K.D.; DeRose,  P.C.; Duewer,  D.L.; 
+Epstein,  M.S.; Kline,  M.C.; Lippa,  K.A.; Lucon,  E.; Phinney,  K.W.; Polakoski,  M.; Possolo,  A.; 
+Sharpless,  K.E.;  Sieber,  J.R.; Toman,  B.; Winchester,  M.R.; Windover,  D.; Metrological Tools for the 
+Reference Materials and Reference Instruments of the NIST Material Measurement Laboratory ; NIST Special 
+Publication  260-136; U.S. Government Printing Office:  Washington,  DC (2020); available at 
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260 -136-2020.pdf  (accessed Mar 2023 ).  
+[2] JCGM  100:2008; Evaluation of Measurement Data — Guide to the Expression of U ncertainty in Measurement  
+(GUM 1995 with Minor Corrections); Joint Committee for Guides in Metrology (2008); available at 
+https://www.bipm.org/en/committees/jc/jcgm/publications  accessed Feb 2023 ); see also Taylor,  B.N.; 
+Kuyatt,  C.E.; Guidelines for Evaluating and Expressing the Uncertainty of NIST Measurement Results ; NIST 
+Technical Note 1297; U.S. Government Printing Office:  Washington,  DC (1994); available at 
+https://www.nist.gov/pml/nist -technical -note-1297 (accessed Mar 2023). 
+[3] JCGM  101:2008; Evaluation of Measurement Data  — Supplement  1 to the “Guide to the Expression of 
+Uncertainty in Measurement”  — Propagation of Distributions Using a Monte Carlo Method; Joint Committee 
+for Guides  in Metrology (JCGM) (2008); available  at 
+https://www.bipm.org/en/committees/jc/jcgm/publications  (accessed Mar 2023 ). 
+[4] Efron,  B.; Tibshirani,  R.J.; An Introduction to the Bootstrap; Chapman & Hall:  London,  UK (1993).  
+[5] Searle,  S.; Casella , G.; McCulloch,  C.; Variance Components ; John Wiley:  Hoboken,  NJ (1992).  
+[6] Rukhin,  A.L.; Possolo,  A.; Laplace Random Effects Models for Interlaboratory Studies ; Comput. Stat. Data 
+Anal.; Vol.  55, pp.  1815– 1827 (2011).  
+[7] Phillips,  M.M.; Wood,  L.J.; Barber,  C.A.; Scruggs,  B.E.; Sieber,  J.R.; Yen,  J.H.; Yu,  L.L.; Value Assignment of 
+Standard Reference Material® 1849b Infant/Adult Nutritional Formula I ; NIST Special Publication 260 -233; 
+National Institute of Standards and Tec hnology, Gaithersburg, MD;  available  at 
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.260 -233.pdf   (accessed Mar 2023). 
+[8] Sharpless,  K.E.; Duewer,  D.L.; Standard Reference Materials for Analysis of Dietary Supplements ; J AOAC 
+Int., Vol.  91, pp.  1298– 1302 (2008).  
+ 
+ 
+If you use this SRM in published work, please reference:  
+Phillips MM, Wood LJ, Barber CA, Scruggs BE, Sieber JR,  Yen J H, Yu LL  (2022) Value Assignment  of Standard 
+Reference Material® 1849b Infant/Adult Nutritional Formula I . (National Institute of Standards and Technology, 
+Gaithersburg, MD), NIST Special Publication (SP) 260 -233. https://doi.org/10.6028/NIST.SP.260 -233 
+ 
+Certain commercial equipment, instruments, or materials may be identified in this Certificate of Analysis to 
+adequately specify the experimental procedure.  Such identification does not imply recommendation or endorsement 
+by the National Institute of Standards and Technology, nor does it imply that the materials or equipment identified are necessarily the best available for the purpose.  
+ 
+Users of this SRM should e nsure that the Certificate  of Analysis  in their possession is current.  This can be accomplished 
+by contacting the Office of Reference Materials 100 Bureau Drive, Stop 2300, Gaithersburg,  MD 20899- 2300; 
+telephone  (301)  975-2200; e -mail srminfo@nist.gov ; or the Internet at https://www.nist.gov/srm . 
+ 
+* * * * * * * * * * * * End of Certificate  of Analysis  * * * * * * * * * * * *  new page 
+ SRM  1849b Page 3 of 5 APPENDIX  A 
+ 
+Non-Certified Values:   Non -certified values are suitable for use in method development, method harmonization, and 
+process control but do not meet the NIST criteria for certification  [1] nor provide metrological traceability to the 
+International System of Units  (SI) or other higher -order reference system.  They are the best estimates of the true 
+values based on available data.  The values are provided with an uncertainty that may reflect only measurement 
+reproducibility, may not include all sources of uncertainty, and/or may reflect a lack of sufficient statistical agreement 
+among multiple analytical methods.  
+ 
+Table  A1.  Non-Certified Values for Various Measurands  in SRM  1849b 
+ 
+ Mass Fraction(a) 
+(mg/kg)   Mass Fraction(a) 
+(mg/kg)  
+Calcium (Ca)   5050  ± 220  Thiamine (Vitamin B 1)  14.4 ± 1.4 
+Chlorine (Cl)   6580  ± 110  Riboflavin (Vitamin B 2)  16.9 ± 1.0 
+Fluoride (F)   1.610  ± 0.064   Niacinamide (Vitamin B 3) 109.7  ± 6.5 
+Manganese (Mn)   46.4 ± 2.1  Pantothenic Acid (Vitamin B 5)  72.6 ± 2.3 
+Potassium (K)  9014   ± 90  Pyridoxine (Vitamin B 6)  14.8 ± 1.2 
+Sodium (Na)   4155  ± 100  Biotin   2.08 ± 0.11 
+Zinc (Zn)   141.9  ± 3.9  Folic Acid   2.55 ± 0.26 
+   Ascorbic Acid (Vitamin C)  969 ± 45 
+Adenosine Monophosphate   128.8  ± 1.2  Retinol(c)  10.13  ± 0.10 
+Cytidine Monophosphate   350.9  ± 1.1  Retinyl Acetate   7.1 ± 1.2 
+Guanosine Monophosphate   190.36  ± 0.54  Retinyl Palmitate   7.803  ± 0.078  
+Uridine Monophosphate   177.00  ± 0.67  Ergocalciferol (Vitamin D 2)  0.1162  ± 0.0018  
+Total Nucleotide Equivalents(b)  847.0 ± 2.0  Cholecalciferol (Vitamin D 3)  0.1056  ± 0.0011  
+   α-Tocopherol  (Free)   55.0 ± 9.2 
+β-Carotene   0.5452  ± 0.0068   α-Tocopherol  (Total)  202 ± 26 
+Lutein   2.478  ± 0.015   α-Tocopheryl Acetate  147 ± 30 
+Lycopene   1.733  ± 0.020   β-Tocopherol   4.79 ± 0.71 
+   γ-Tocopherol  115.7  ± 7.2 
+Total Choline   1014  ± 32  δ-Tocopherol   35.0 ± 5.8 
+Total Carnitine   160.1  ± 2.4  Phylloquinone  (Vitamin  K1)  0.96 ± 0.16 
+myo-Inositol   448.9  ± 5.1    
+   Cholesterol   1.3455  ± 0.0097  
+ 
+(a) Values are expressed as x  ± U95%(x), where x is the estimated value and U 95% (x) is the expanded uncertainty of the value.  The 
+method-specific value of the analyte lies within the interval x  ± U95%(x) with 95 % confidence.  
+(b) The value for t otal nucleotide equivalents does not include inosine monophosphate.  
+(c) Retinol was added to SRM  1849 b as retinyl acetate and retinyl palmitate.  This non-certified value is expressed as retinol 
+equivalents obtained by experimental saponification of these esters or conversion through multiplication using the ratio of t he 
+relative molecular masses of retinol and each ester.  The value represents total ( cis + trans ) retinol.  No correction is made for 
+differences in biological activity of the cis and trans  forms.  
+  new page 
+ SRM  1849b Page 4 of 5 Table  A2.  Non-Certified Values for Various Measurands in SRM  1849b  
+ 
+ Mass Fraction(a) 
+(g/100 g)   Mass Fraction(a) 
+(g/100 g)  
+Alanine   0.4701  ± 0.0038   Ash  4.49 ± 0.010  
+Arginine   0.4275  ± 0.0099   Protein   12.86  ± 0.14 
+Aspartic Acid   1.0536  ± 0.0062   Fat (extracted)   27.93  ± 0.40 
+Cystine   0.130  ± 0.016   Solids   97.826  ± 0.087  
+Glutamic Acid   2.503  ± 0.031   Carbohydrates   53.4 ± 2.3 
+Glycine   0.2465  ± 0.0011   Galactooligosaccharides (GOS)   2.575  ± 0.055 
+Histidine   0.2969  ± 0.0084   Glucose   0.863  ± 0.011  
+Isoleucine   0.6885  ± 0.0087   Lactose   47.34  ± 0.38 
+Leucine   1.2764  ± 0.0069   Total Sugars   48.20  ± 0.39 
+Lysine   0.919  ± 0.040     
+Methionine (Free)   0.1100  ± 0.0010    Energy  
+Methionine (Total)   0.4523  ± 0.0044    (kcal/100 g)(a,b) 
+Phenylalanine   0.5760  ± 0.0035   Calories  518 ± 10 
+Proline   1.191  ± 0.011     
+Serine   0.658  ± 0.012     
+Taurine   0.3596  ± 0.0031     
+Threonine   0.6338  ± 0.0036     
+Tryptophan   0.1774  ± 0.0037     
+Tyrosine   0.5845  ± 0.0049     
+Valine   0.7449  ± 0.0075     
+ 
+(a) Values are expressed as x  ± U95%(x), where x is the estimated value and U 95% (x) is the expanded uncertainty of the value.  The 
+method-specific value of the analyte lies within the interval x  ± U95%(x) with 95 % confidence.  
+(b) The non-certified value for calories is the median of lab mean caloric calculations from the interlaboratory comparison 
+exercise.  If the mean proximate values from Table  A2 are used for calculation, with caloric equivalents of 9, 4, and 4 for 
+fat (extracted), protein, and carbohydrate, respectively, the mean caloric content is 516.4 kcal/ 100 g.  new page 
+ SRM  1849b Page 5 of 5 Table  A3.  Non-Certified Mass Fraction Values for Values for Fatty Acids as Free Fatty Acids in SRM 18 49b 
+  Mass Fraction(a) 
+(g/100 g) 
+Hexanoic Acid  (C6:0)  Caproic Acid   0.04590  ± 0.00069 
+Octanoic Acid  (C8:0)  Caprylic Acid   0.5086  ± 0.0025 
+Decanoic Acid  (C10:0)  Capric Acid   0.4101  ± 0.0012 
+Dodecanoic Acid  (C12:0)  Lauric Acid   3.1977  ± 0.0041 
+Tetradecanoic Acid  (C14:0)  Myristic Acid   1.3479  ± 0.0030 
+Hexadecanoic Acid  (C16:0)  Palmitic Acid   2.1674  ± 0.0034  
+(Z)-9-Hexadecenoic Acid  (C16:1 n-7) Palmitoleic Acid   0.02286  ± 0.00058 
+Heptadecanoic Acid  (C17:0)  Margaric Acid   0.01433  ± 0.000 58 
+Octadecanoic Acid  (C18:0)  Stearic Acid   0.7816  ± 0.0017  
+(Z)-9-Octadecenoic Acid  (C18:1 n -9) Oleic Acid   10.370  ± 0.032  
+(Z,Z)-9,12-Octadecadienoic Acid  (C18:2 n -6) Linoleic Acid   5.724  ± 0.011  
+Total trans -C18:1 and -C18:2 Fatty Acids    0.06927  ± 0.00064 
+(Z,Z,Z)-6,9,12 -Octadecatrienoic Acid  (C18:3 n -6) γ -Linolenic Acid   0.01139  ± 0.00060 
+(Z,Z,Z) and ( Z,Z,E)-9,12,15 -Octadecatrienoic Acid  (C18:3 n -3) α-Linolenic Acid   0.5553  ± 0.0015  
+Eicosanoic Acid  (C20:0)  Arachidic Acid   0.07688  ± 0.00063  
+Eicosenoic Acid  (C20:1)    0.07424  ± 0.00064  
+Eicosatrienoic Acid  (C20:3 n -6) Homo -γ-Linolenic Acid   0.01467  ± 0.00064  
+(Z,Z,Z,Z)-5,8,11,14 -Eicosatetraenoic Acid  (C20:4 n -6) Arachidonic Acid   0.16311  ± 0.00066  
+Docosanoic Acid  (C22:0)  Behenic Acid   0.06556 ± 0.00063  
+(Z,Z,Z,Z,Z,Z)-4,7,10,13,16,19 -Docosahexaenoic Acid  (C22:6 n -3) DHA   0.0559  ± 0.0012  
+Tetracosanoic Acid  (C24:0)  Lignoceric Acid   0.03691  ± 0.00062  
+(Z)-15-Tetracosenoic Acid  (C24:1 n -9) Nervonic Acid   0.02030  ± 0.000 58 
+Monounsaturated Fatty Acids    10.700  ± 0.030  
+Polyunsaturated Fatty Acids    6.501  ± 0.013 
+Saturated Fatty Acids    8.655  ± 0.011 
+Fat (as the sum of fatty acids as triglycerides)    27.245  ± 0.055  
+ 
+(a) Values are expressed as x ± U95%(x), where x is the estimated value and U 95%(x) is the expanded uncertainty of the value.  The 
+method-specific value of the analyte lies within the interval x ± U95%(x) with 95 % confidence . 
+ 
+Maintenance of Non -Certified Values :  NIST will monitor this material to the end of its period of validity.  If 
+substantive technical changes occur that affect the non -certified values during this period, NIST will update this 
+Certificate of Analysis  and notify registered users.  SRM users can register online from a link available on the NIST 
+SRM website or fill out the user registration form that is supplied with the SRM.  Registration will facilitate 
+notification.  Before making use of any of the values delivered by this material, users should verify they have the most recent version of this documentation, available through the NIST SRM website ( https://www.nist.gov/srm ).   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* * * * * * * * * * * End of Appendix A * * * * * * * * * * *  new page 
+ 
